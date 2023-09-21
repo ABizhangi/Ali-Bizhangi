@@ -1,0 +1,47 @@
+body {
+  background-color: lightgray;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tilt Prism", cursive;
+}
+.container {
+  display: block;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 25px 0px;
+  border: 1px solid lightgray;
+  border-radius: 20%;
+}
+
+.container > img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 2px dotted gray;
+  border-radius: 51%;
+  margin: auto;
+}
+.container > h1 {
+  text-align: center;
+}
+.container > p {
+  width: 200px;
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 5px solid gray;
+  border-radius: 30%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.social {
+  background-color: lightgray;
+  margin: auto;
+  text-align: center;
+}
+.social > img {
+  display: inline-block;
+  margin: 10px;
+}
